@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 d = dict() 
 li=list()
 
@@ -16,7 +10,7 @@ while x!='done': #taking input from user till he enters 'done'
         li.append(x)
     
 for i in li:
-    temp = " ".join(sorted(list(i))) #sorting individual element of list
+    temp = " ".join(sorted(list(i))) #sorting individual element of list and joining back in string
     if temp not in d: 
         d[temp] =[i]   
     else:
